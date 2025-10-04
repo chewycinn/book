@@ -9,7 +9,7 @@ const pages = document.querySelectorAll('.page');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 
-const correctPassword = 'X.X.IV.MMXXV'; // Roman numeral for October 6, 2025 = X.X.IV.MMXXV (can customize)
+const correctPassword = 'X.VI.MMXXV'; // Roman numeral for October 6, 2025 = X.X.IV.MMXXV (can customize)
 
 let currentPage = 1;
 
