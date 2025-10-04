@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Beloved Sha - Interactive Book</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>My Beloved Sha - Interactive Book</header>
+
+  <div id="content">
+
+    <div id="passwordPage">
+      <h2>Enter Password to Open the Book</h2>
+      <input type="password" id="passwordInput" placeholder="Enter password" autofocus />
+      <button id="passwordBtn">Unlock</button>
+      <div id="passwordError"></div>
+    </div>
+
+    <div id="bookPages" style="display:none;">
+
+      <div class="page" data-page="1" style="display:none;">
+        <h1>My Beloved Sha</h1>
+        <p>Happy Monthsary, my love. This book is for you.</p>
+      </div>
+
+      <div class="page" data-page="2" style="display:none;">
+        <h2>Table of Contents</h2>
+        <ul>
+          <li>Our Story</li>
+          <li>Picture Puzzle</li>
+          <li>50 Reasons Why I Love You</li>
+          <li>Love Letter</li>
+          <li>Our Special Day</li>
+          <li>Celebration Plan</li>
+        </ul>
+      </div>
+
+      <!-- Add more pages here -->
+
+    </div>
+
+  </div>
+
+  <nav>
+    <button id="prevBtn" style="display:none;">Previous</button>
+    <button id="nextBtn" style="display:none;">Next</button>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
